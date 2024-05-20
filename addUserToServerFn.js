@@ -72,7 +72,7 @@ function addUserToServer(formData){
         })
 }
 
-addUserFormEl.addEventListener("susbmit", function(event){
+addUserFormEl.addEventListener("submit", function(event){
     event.preventDefault();
     validateFormData(formData);
     addUserToServer(formData);
